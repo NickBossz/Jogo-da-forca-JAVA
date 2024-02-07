@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text id="perdeu" fill="RED" layoutX="59.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Você perdeu!" wrappingWidth="266.13671875">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+      <Text id="era" layoutX="35.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A palavra era..." wrappingWidth="328.76708984375">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
